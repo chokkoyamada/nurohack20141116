@@ -42,10 +42,12 @@ function plot_graph($graphdata) {
 //exit();
 
 	$barplot1 = new BarPlot($ydata1);
-	$barplot1->SetFillColor("orange");
+	$barplot1->SetFillColor("#ff8000");
+        $barplot1->SetLegend("Giants");
 
 	$barplot2 = new BarPlot($ydata2);
 	$barplot2->SetFillColor("blue");
+        $barplot2->SetLegend('Tigers');
 
 	$accbarplot = new AccBarPlot(array($barplot1, $barplot2));
 

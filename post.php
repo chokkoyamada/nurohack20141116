@@ -22,7 +22,6 @@ function post_to_es($team_id, $emotion_id) {
 	$params['body']  = array(
 			'team_id' => intval($team_id),
 			'emotion_id' => intval($emotion_id),
-                        //'timestamp' => date("Y-m-d\TH:i:s")
                         'timestamp' => time() * 1000
 			);
 	$params['index'] = 'nuro-2014.11.16';
