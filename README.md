@@ -38,3 +38,5 @@ it displays bar chart.
 
 Kibana for ElasticSearch  
 http://54.64.72.139/kibana/index.html#/dashboard/elasticsearch/nuro
+
+hi
